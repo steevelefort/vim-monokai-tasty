@@ -26,10 +26,11 @@ else
 endif
 
 let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
-let s:purple = { 'cterm': 141, 'gui': '#af87ff' }
+let s:purple = { 'cterm': 141, 'gui': '#3f87FF' }
+"let s:purple = { 'cterm': 141, 'gui': '#af87ff' }
 let s:light_green = { 'cterm': 148, 'gui': '#A4E400' }
 let s:light_blue = { 'cterm': 81, 'gui': '#62D8F1' }
-let s:magenta = { 'cterm': 197, 'gui': '#FC1A70' }
+let s:magenta = { 'cterm': 197, 'gui': '#FC3A50' }
 let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
 
 " Search colours. Specifically not in the monokai palette so that they will
@@ -48,13 +49,13 @@ let s:charcoal = { 'cterm': 235, 'gui': '#22242A' }
 "let s:charcoal = { 'cterm': 235, 'gui': '#23262E' }
 
 " Git diff colours.
-let s:danger = { 'cterm': 197, 'gui': '#ff005f' }
+let s:danger = { 'cterm': 197, 'gui': '#ff5540' }
 let s:olive = { 'cterm': 64, 'gui': '#5f8700' }
 let s:dark_red = { 'cterm': 88, 'gui': '#870000' }
 let s:blood_red = { 'cterm': 52, 'gui': '#5f0000' }
 let s:dark_green = { 'cterm': 22, 'gui': '#005f00' }
 let s:bright_blue = { 'cterm': 33, 'gui': '#0087ff' }
-let s:purple_slate = { 'cterm': 60, 'gui': '#5f5f87' }
+let s:purple_slate = { 'cterm': 60, 'gui': '#1f5f87' }
 
 let s:none = { 'cterm': 'NONE', 'gui': 'NONE' }
 let s:bold = { 'cterm': 'bold', 'gui': 'bold' }
