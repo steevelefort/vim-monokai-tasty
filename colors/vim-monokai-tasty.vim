@@ -26,10 +26,10 @@ else
 endif
 
 let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
-let s:purple = { 'cterm': 141, 'gui': '#4f97FF' }
-"let s:purple = { 'cterm': 141, 'gui': '#af87ff' }
+let s:purple = { 'cterm': 141, 'gui': '#4fb7FF' }
+"let s:purple = { 'cterm': 141, 'gui': '#af97ff' }
 let s:light_green = { 'cterm': 148, 'gui': '#A4E400' }
-let s:light_blue = { 'cterm': 81, 'gui': '#62D8F1' }
+let s:light_blue = { 'cterm': 81, 'gui': '#62e8FF' }
 let s:magenta = { 'cterm': 197, 'gui': '#FC3A50' }
 let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
 
