@@ -51,8 +51,8 @@ let s:charcoal = { 'cterm': 235, 'gui': '#23262E' }
 " Git diff colours.
 let s:danger = { 'cterm': 197, 'gui': '#ff5540' }
 let s:olive = { 'cterm': 64, 'gui': '#5f8700' }
-let s:dark_red = { 'cterm': 88, 'gui': '#870000' }
-let s:blood_red = { 'cterm': 52, 'gui': '#5f0000' }
+let s:dark_red = { 'cterm': 88, 'gui': '#b70000' }
+let s:blood_red = { 'cterm': 52, 'gui': '#bf0000' }
 let s:dark_green = { 'cterm': 22, 'gui': '#009f00' }
 let s:bright_blue = { 'cterm': 33, 'gui': '#0087ff' }
 let s:purple_slate = { 'cterm': 60, 'gui': '#1f5fb7' }
