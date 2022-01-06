@@ -26,13 +26,13 @@ else
 endif
 
 let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
-let s:purple = { 'cterm': 141, 'gui': '#4fc7FF' }
+let s:purple = { 'cterm': 141, 'gui': '#6fc7FF' }
 "let s:purple = { 'cterm': 141, 'gui': '#af97ff' }
-let s:light_green = { 'cterm': 160, 'gui': '#84f400' }
+let s:light_green = { 'cterm': 160, 'gui': '#84f470' }
 "let s:light_green = { 'cterm': 148, 'gui': '#84f400' }
-let s:light_blue = { 'cterm': 81, 'gui': '#62e8FF' }
-let s:magenta = { 'cterm': 197, 'gui': '#FC3A50' }
-let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
+let s:light_blue = { 'cterm': 81, 'gui': '#82e8FF' }
+let s:magenta = { 'cterm': 197, 'gui': '#Ff3A60' }
+let s:orange = { 'cterm': 208, 'gui': '#FFa700' }
 
 " Search colours. Specifically not in the monokai palette so that they will
 " stand out.
@@ -41,10 +41,10 @@ let s:bright_yellow = { 'cterm': 11, 'gui': 'yellow' }
 
 " Monochrome in order light -> dark
 let s:white = { 'cterm': 231, 'gui': '#ffffff' }
-let s:light_grey = { 'cterm': 250, 'gui': '#bcbcbc' }
-let s:grey = { 'cterm': 245, 'gui': '#8a8a8a' }
-let s:dark_grey = { 'cterm': 59, 'gui': '#5f5f5f' }
-let s:darker_grey = { 'cterm': 238, 'gui': '#444444' }
+let s:light_grey = { 'cterm': 250, 'gui': '#cccccc' }
+let s:grey = { 'cterm': 245, 'gui': '#999999' }
+let s:dark_grey = { 'cterm': 59, 'gui': '#777777' }
+let s:darker_grey = { 'cterm': 238, 'gui': '#555555' }
 let s:light_charcoal = { 'cterm': 238, 'gui': '#2b2b2b' }
 "let s:charcoal = { 'cterm': 235, 'gui': '#22242A' }
 let s:charcoal = { 'cterm': 235, 'gui': '#23262E' }
