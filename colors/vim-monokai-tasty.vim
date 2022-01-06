@@ -26,9 +26,9 @@ else
 endif
 
 let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
-let s:purple = { 'cterm': 141, 'gui': '#4fb7FF' }
+let s:purple = { 'cterm': 141, 'gui': '#4fc7FF' }
 "let s:purple = { 'cterm': 141, 'gui': '#af97ff' }
-let s:light_green = { 'cterm': 148, 'gui': '#A4E400' }
+let s:light_green = { 'cterm': 148, 'gui': '#84f400' }
 let s:light_blue = { 'cterm': 81, 'gui': '#62e8FF' }
 let s:magenta = { 'cterm': 197, 'gui': '#FC3A50' }
 let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
@@ -50,10 +50,10 @@ let s:charcoal = { 'cterm': 235, 'gui': '#23262E' }
 
 " Git diff colours.
 let s:danger = { 'cterm': 197, 'gui': '#ff5540' }
-let s:olive = { 'cterm': 64, 'gui': '#5f8700' }
-let s:dark_red = { 'cterm': 88, 'gui': '#b70000' }
-let s:blood_red = { 'cterm': 52, 'gui': '#bf0000' }
-let s:dark_green = { 'cterm': 22, 'gui': '#009f00' }
+let s:olive = { 'cterm': 64, 'gui': '#9fd700' }
+let s:dark_red = { 'cterm': 88, 'gui': '#c70000' }
+let s:blood_red = { 'cterm': 52, 'gui': '#cf0000' }
+let s:dark_green = { 'cterm': 22, 'gui': '#00bf00' }
 let s:bright_blue = { 'cterm': 33, 'gui': '#0087ff' }
 let s:purple_slate = { 'cterm': 60, 'gui': '#1f5fb7' }
 
