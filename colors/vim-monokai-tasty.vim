@@ -29,10 +29,9 @@ let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
 let s:purple = { 'cterm': 141, 'gui': '#6fc7FF' }
 "let s:purple = { 'cterm': 141, 'gui': '#af97ff' }
 let s:light_green = { 'cterm': 160, 'gui': '#84f470' }
-"let s:light_green = { 'cterm': 148, 'gui': '#84f400' }
-let s:light_blue = { 'cterm': 81, 'gui': '#82e8FF' }
-let s:magenta = { 'cterm': 197, 'gui': '#Ff3A60' }
-let s:orange = { 'cterm': 208, 'gui': '#FFa700' }
+let s:light_blue = { 'cterm': 81, 'gui': '#62b8FF' }
+let s:magenta = { 'cterm': 197, 'gui': '#FF2A50' }
+let s:orange = { 'cterm': 208, 'gui': '#FFb700' }
 
 " Search colours. Specifically not in the monokai palette so that they will
 " stand out.
@@ -46,8 +45,7 @@ let s:grey = { 'cterm': 245, 'gui': '#999999' }
 let s:dark_grey = { 'cterm': 59, 'gui': '#777777' }
 let s:darker_grey = { 'cterm': 238, 'gui': '#555555' }
 let s:light_charcoal = { 'cterm': 238, 'gui': '#2b2b2b' }
-"let s:charcoal = { 'cterm': 235, 'gui': '#22242A' }
-let s:charcoal = { 'cterm': 235, 'gui': '#23262E' }
+let s:charcoal = { 'cterm': 235, 'gui': '#232630' }
 
 " Git diff colours.
 let s:danger = { 'cterm': 197, 'gui': '#ff5540' }
@@ -551,3 +549,5 @@ call Highlight('LspDiagnosticsUnderlineHint', { 'fg': s:none, 'bg': s:none, 'sty
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
+
+hi LineNr ctermfg=246 ctermbg=59 cterm=NONE guifg=#444444 guibg=#101010 gui=NONE
