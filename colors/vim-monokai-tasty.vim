@@ -27,8 +27,8 @@ endif
 
 let s:yellow = { 'cterm': 228, 'gui': '#ffff87' }
 let s:purple = { 'cterm': 141, 'gui': '#6fc7FF' }
-"let s:purple = { 'cterm': 141, 'gui': '#af97ff' }
 let s:light_green = { 'cterm': 160, 'gui': '#84f470' }
+"let s:light_blue = { 'cterm': 81, 'gui': '#55aaff' }
 let s:light_blue = { 'cterm': 81, 'gui': '#62b8FF' }
 let s:magenta = { 'cterm': 197, 'gui': '#FF2A50' }
 let s:orange = { 'cterm': 208, 'gui': '#FFb700' }
@@ -45,7 +45,10 @@ let s:grey = { 'cterm': 245, 'gui': '#999999' }
 let s:dark_grey = { 'cterm': 59, 'gui': '#777777' }
 let s:darker_grey = { 'cterm': 238, 'gui': '#555555' }
 let s:light_charcoal = { 'cterm': 238, 'gui': '#2b2b2b' }
-let s:charcoal = { 'cterm': 235, 'gui': '#232630' }
+let s:charcoal = { 'cterm': 235, 'gui': '#032030' }
+"let s:charcoal = { 'cterm': 235, 'gui': '#133654' }
+"let s:charcoal = { 'cterm': 235, 'gui': '#232634' }
+"let s:charcoal = { 'cterm': 235, 'gui': '#232630' }
 
 " Git diff colours.
 let s:danger = { 'cterm': 197, 'gui': '#ff5540' }
@@ -550,4 +553,4 @@ call Highlight('LspDiagnosticsUnderlineHint', { 'fg': s:none, 'bg': s:none, 'sty
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
 
-hi LineNr ctermfg=246 ctermbg=59 cterm=NONE guifg=#444444 guibg=#101010 gui=NONE
+hi LineNr ctermfg=246 ctermbg=59 cterm=NONE guifg=#506077 guibg=#103050 gui=NONE
