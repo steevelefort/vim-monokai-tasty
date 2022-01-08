@@ -15,7 +15,7 @@ let s:light_grey = { "cterm": 250, "gui": "#bcbcbc" }
 let s:grey = { "cterm": 245, "gui": "#506077" }
 let s:dark_grey = { "cterm": 59, "gui": "#203040" }
 let s:darkest_grey = { "cterm": 238, "gui": "#001020" }
-let s:light_charcoal = { "cterm": 236, "gui": "#ff0515" }
+let s:light_charcoal = { "cterm": 236, "gui": "#001020" }
 let s:charcoal = { "cterm": 235, "gui": "#000000" }
 
 function! s:add(fg, bg, style)
